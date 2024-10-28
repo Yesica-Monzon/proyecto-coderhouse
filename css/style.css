@@ -99,3 +99,25 @@ ul:hover {
     color: white;
     font-size: 10 px;
 }
+/* Muestra de zapatillas*/
+.galeriaimagenes {
+    display: flexbox;
+    justify-content:first baseline;
+    background-color: whitesmoke;
+    
+}
+/* Empresa */
+
+.sobrenosotros {
+    padding: 100px;
+    margin-left: 15 px;
+    text-align: justify;
+    color: white;
+    text-decoration:solid;
+}
+
+.whatsapp {
+    display: flex;
+    position: sticky;
+    float:right;
+}
