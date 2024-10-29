@@ -43,7 +43,7 @@ h1 {
    
 }
 
-p{
+p {
     color: white;
     text-align:center;
     text-transform: lowercase;
@@ -59,6 +59,15 @@ h2 {
 h3 {
     background-color: white;
 }
+
+
+h4 {
+    background-color: #D9BD97;
+    color:white;
+    margin-top: 50px;
+    padding: 50px;
+}
+
 
 footer {
     background-color: #D9BD97;
@@ -103,8 +112,7 @@ ul:hover {
 .galeriaimagenes {
     display: flexbox;
     justify-content:first baseline;
-    background-color: whitesmoke;
-    
+    background-color: whitesmoke;    
 }
 /* Empresa */
 
@@ -121,3 +129,15 @@ ul:hover {
     position: sticky;
     float:right;
 }
+
+.sobrenosotros {
+    font-weight: bold;
+}
+/*
+span text.zapas {
+    font-size: 16px;
+    color: black;
+    margin-top: 5px;
+    text-align: left;
+}
+*/
