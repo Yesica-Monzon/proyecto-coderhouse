@@ -1,0 +1,145 @@
+@import "mixins";
+$primary-color: #D9BD97;
+$secondary-color: black;
+
+body {
+    background-color: $primary-color;
+}
+div {
+    .anuncio p {
+        background-color: $secondary-color;
+        color: rgba(255, 255, 255, 0.887);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+    }
+}    
+header {
+    div {
+        header {
+         /* tamaño tipo borde color */
+        display: flex;
+         /* justify */
+        justify-content: space-around;
+        /* align-items */
+        padding: 100px;
+        font-weight: bold;
+
+        .formulario{
+            display: flex;
+            width:100% ;
+            padding: 20px;
+            justify-content:flex-end ;
+            }
+        }
+    }
+}
+
+
+h1 {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:right;
+    background-color: #D9BD97;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    text-align:center;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+
+h2 {
+    @include titulo-producto;
+  }
+
+h3 {
+    @include titulo-producto;
+}
+
+
+
+h4 {
+    @include titulo-producto;
+    margin-top: 50px;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #D9BD97;
+    flex-direction: end;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+/* Carrito*/
+table {
+    background-color: grey;
+    text-align: center;
+    color: white;
+}
+
+
+/* LISTA */
+ul {
+    background-color: #D9BD97;
+    text-decoration: none;
+    display: flex; /* SE UTILLIZA PARA ALINEAR LOS ELEMENTOS */
+    justify-content: space-around; /* SE COLOCAN CON UN ESPACIO ENTRE MEDIO  */
+    list-style-type: none;  /* PARA QUITAR LOS PUNTOS QUE VIENEN EN LA LISTA DESORDENADA */
+    transition: 0.5s;
+}
+/* FUNCIONA PARA LAS ETIQUETAS DE ENLACES */
+a {
+    text-decoration: none; 
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-radius: 200px;
+    padding:15px;
+    width: 130px;
+    font-size: 20px;
+}
+a:hover {
+    color: white;
+    text-decoration:solid;
+    border: 1px solid black;
+}
+
+ul:hover {
+    padding:20px;
+    color: white;
+    font-size: 10 px;
+}
+/* Muestra de zapatillas*/
+.galeriaimagenes {
+    display: flexbox;
+    justify-content:first baseline;
+    background-color: whitesmoke;    
+}
+/* Empresa */
+
+.sobrenosotros {
+    padding: 100px;
+    margin-left: 15 px;
+    text-align: justify;
+    color: white;
+    text-decoration:solid;
+}
+
+.whatsapp {
+    display: flex;
+    position: sticky;
+    float:right;
+}
+
+.sobrenosotros {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 50px;
+}
